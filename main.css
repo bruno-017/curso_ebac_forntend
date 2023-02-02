@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: rgb(65, 61, 61);
+    padding: 16px 0;
+    color: blanchedalmond;
+}
+
+header li a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /* height: 180px */
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    padding: 16px 0;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: black;
+    color: rgb(241, 231, 231);
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p, 
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+    text-align: justify;
+}
+
+#esportes {
+    background-color: rgba(0, 255, 0, 0.185);
+}
+
+#esportes .articles article a {
+    background-color: rgba(0, 255, 0, 0.534);
+color: antiquewhite;
+}
+
+#economia {
+    background-color: rgba(218, 165, 32, 0.363)
+}
+
+#esportes .articles article a {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#economia .articles article a {
+    background-color: orangered;
+}
+
+
+#entreternimento {
+    background-color: rgba(253, 10, 10, 0.267)
+}
+
+#entreternimento .articles article a {
+    background-color: red;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#tecnologia {
+    background-color: rgba(0, 0, 255, 0.322);
+}
+
+#tecnologia .articles article a {
+    background-color: blue;
+    font-weight: bold;
+    margin-top: 8px;
+}
